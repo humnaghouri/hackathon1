@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+ body{
+    background: url(./assests/imgs/backgrpung.jfif) center no-repeat  ;
+    background-size: cover;
+   height: 50em;
+
+    
+ }
+ #main{
+    background-color: #0000004b;
+ }
+ .header li{
+     display: inline-block;
+     text-decoration: none;
+     margin-top: 6px;
+     /* position: absolute; */
+     /* height: 800px; */
+     
+     
+
+
+ }
+ li a{
+     color: rgb(255, 253, 253);
+
+
+
+ }
+ #items{
+     margin-left: 70em;
+     display: inline-block;
+     margin-top: 27px;
+     
+
+ }
+ #items li a{
+   padding:2px 30px 0 30px ;
+   text-decoration: none;
+ }
+ .icon1{
+    margin-left:10em;
+    display: inline-block;
+}
+/*  */
+.home-section h1 {
+    color: #eeeeee; /* Color of the heading */
+    font-size: 2em; /* Adjust the font size as per your preference */
+    margin-bottom: 20px; /* Adjust the margin as per your preference */
+   
+  }
+
+  /* Styling for the paragraph */
+  .home-section p {
+    color: #e0dada; /* Color of the paragraph */
+    font-size: 1.2em; /* Adjust the font size as per your preference */
+    text-align: center;
+  } 
+
+#text{
+    text-align: center;
+   margin-top: 240px;
+    justify-content: center;
+    align-items: center;
+    color: #eeeeee;
+   
+    
+  
+}
+#text p{
+    margin-top: 60px;
+}
+
+
+.button {
+    width: 150px; /* Adjust the width of the button */
+    height: 50px; /* Adjust the height of the button */
+    background-color: #ffffff; /* Background color of the button */
+    color: #000000; /* Text color of the button */
+    border: none;
+    border-radius: 40px; /* Half of the height to make it oval */
+    font-size: 1.2em; /* Adjust the font size as per your preference */
+    cursor: pointer;
+    outline: none;} 
+
+button{
+background-color: transparent;
+color: #e0dada;
+border: none;
+margin-left: 50px;
+margin-top: 30px;
+
+}
+
+
+
+@media only screen and (max-width: 1670px)    
+
+{
+   .header{
+        flex-direction: column;
+        text-align: left;
+    }
+    #items{
+        flex-direction: column;
+        text-align: left;
+        margin-left: 20em;
+    }
+    body{
+        height: 55em;
+    }
+}
+@media only screen and (max-width: 1619px)    
+{
+    body{
+        height: 58em;
+    }
+
+}
+@media only screen and (max-width: 1552px){
+    body{
+        height: 59.5em;
+    } 
+}    
+
+@media only screen and (max-width: 1402px)    
+{
+    body{
+        height: 59.5em;
+    } 
+}
+
+@media only screen and (max-width: 966px)    
+
+{
+    #items{
+        margin-left: 10px;
+    }  
+    body{
+        height: 59em;
+    }
+}
+
+@media only screen and (max-width: 735px)    
+
+ {
+    #items li {
+        margin: 0%;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    body{
+        height: 60em;
+    }
+}
+/* @media only screen and (max-width: 618px) {
+    #items li   {
+        flex-direction: column;
+        border-color: aquamarine;
+            }
+}    */
+
+    @media only screen and (max-width: 588px)    
+{
+    #items li {
+flex-direction: column;
+    }
+    body{
+        height: 60em;
+    }}
+    @media only screen and (max-width: 365px)  
+    {
+        #text{
+            margin-top: 70px;
+        }}
+
+        @media only screen and (max-width: 280px)  
+{
+.button{
+    margin-left: 2px;
+    
+}
+button{
+    margin-left: 2px;
+    
+}
+
+}
+
+
+
+
